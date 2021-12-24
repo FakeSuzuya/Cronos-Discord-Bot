@@ -1,0 +1,48 @@
+{
+    "nmap": {
+        "command_line": "nmap -oX - -p 22-4000 -sV 127.0.0.1",
+        "scaninfo": {
+            "tcp": {
+                "method": "connect",
+                "services": "22-4000"
+            }
+        },
+        "scanstats": {
+            "timestr": "Tue Dec 14 22:33:28 2021",
+            "elapsed": "6.44",
+            "uphosts": "1",
+            "downhosts": "0",
+            "totalhosts": "1"
+        }
+    },
+    "scan": {
+        "127.0.0.1": {
+            "hostnames": [
+                {
+                    "name": "localhost",
+                    "type": "PTR"
+                }
+            ],
+            "addresses": {
+                "ipv4": "127.0.0.1"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "conn-refused"
+            },
+            "tcp": {
+                "631": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "ipp",
+                    "product": "CUPS",
+                    "version": "2.4",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:apple:cups:2.4"
+                }
+            }
+        }
+    }
+}

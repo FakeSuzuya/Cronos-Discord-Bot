@@ -1,0 +1,16 @@
+{
+  "fr_FR": {
+    "tokenerror": "Vous n'avez pas fournis le token de vôtre bot dans le fichier de configuration !",
+    "prefixerror": "Vous n'avez pas fournis le prefix du self bot !",
+    "commandnotload": "n'a pas pu être chargé !",
+    "errorconnectbot": "Le token du bot n'est pas valide !",
+    "connected": "Connecté à"
+  },
+  "en_GB": {
+    "tokenerror": "You not have set your account token in configruation file !",
+    "prefixerror": "You not have set the prefix of the self bot !",
+    "commandnotload": "can't be loaded",
+    "errorconnectbot": "Le token du bot n'est pas valide !",
+    "connected": "Connected has"
+  }
+}
